@@ -16,6 +16,9 @@
     <engine name="cordova-android" version=">=6.0.0"/>
     <engine name="cordova-ios" version=">=4.3.0"/>
   </engines>
+  <dependency id="cordova-plugin-firebase-hooks"
+              url="https://github.com/37d/cordova-plugin-firebase-hooks.git"
+              commit="04fabb76fb7b21b7c47754071dc9b9e69dab53c5"/>
   <platform name="android">
     <hook type="before_plugin_install" src="scripts/copyAndroidFile.js"/>
     <config-file target="res/xml/config.xml" parent="/*">
