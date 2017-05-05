@@ -18,7 +18,7 @@
   </engines>
   <dependency id="cordova-plugin-firebase-hooks"
               url="https://github.com/37d/cordova-plugin-firebase-hooks.git"
-              commit="852bf787962f15bb4fa30d2e0942cb603eb6a0e3"/>
+              commit="04fabb76fb7b21b7c47754071dc9b9e69dab53c5"/>
     <preference name="SENDER_ID" default="85075801930"/>
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="/*">
