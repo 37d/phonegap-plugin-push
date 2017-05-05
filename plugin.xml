@@ -16,7 +16,10 @@
     <engine name="cordova-android" version=">=6.0.0"/>
     <engine name="cordova-ios" version=">=4.3.0"/>
   </engines>
-  <preference name="SENDER_ID" default="85075801930"/>
+  <dependency id="cordova-plugin-firebase-hooks"
+              url="https://github.com/37d/cordova-plugin-firebase-hooks.git"
+              commit="852bf787962f15bb4fa30d2e0942cb603eb6a0e3"/>
+    <preference name="SENDER_ID" default="85075801930"/>
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="PushNotification">
